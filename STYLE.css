@@ -1,0 +1,346 @@
+*{
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box;
+	  font-family: 'poppins', sans-serif;
+	  scroll-behavior: smooth;
+	}
+	p{
+		font-weight: 500;
+		color: #000000;
+	}
+	body{
+		min-height: 1000px;
+	}
+	.aboutme{
+		position: relative;
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: url();
+		background-size: cover;
+	}
+	.aboutme .content{
+		max-width: 900px;
+		text-align: center;
+	}
+	.aboutme .content h1{
+		font-size: 50px;
+		color: #000000;
+	}
+	.aboutme .content h2{
+		font-size: 60px;
+		position: center;
+	}
+	.aboutme .content p{
+		font-size: 30px;
+		color: #000000;
+	}
+	.aboutme .content h3{
+		font-size: 30px;
+		position: left;
+	}
+
+	.aboutme .content img{
+		position: right;
+		width: 50px;
+		height: 70px;
+	}
+	.hobbies{
+		position: relative;
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: url();
+		background-size: cover;
+	}
+	.hobbies .content{
+		max-width: 1000px;
+		text-align: center;
+	}
+	.hobbies .content h1{
+		font-size: 70px;
+		color: #000000;
+	}
+	.hobbies .content p{
+		font-size: 40px;
+		color: #000000;
+	}
+	.hobbies .content p{
+		font-size: 50px;
+		color: #000000;
+	}
+	.btn{
+		font-size: 15px;
+		color: #ffffff;
+		background: #800b15;
+		display: inline-block;
+		padding: 10px 30px;
+		margin-top: 20px;
+		text-transform: uppercase;
+		text-decoration: none;
+		letter-spacing: 2px;
+		transition: 0.5s;
+	}
+	.btn:hover{
+		letter-spacing: 6px;
+	}
+	header{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%; 
+		padding: 40px 100px;
+	  z-index: 10000;
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  transition: 0.5s;
+	}
+	header.sticky{
+		background: #fff;
+		padding: 10px 100px;
+		box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+	}
+
+	header .logo{
+		color: #800b15;
+		font-weight: 700;
+		font-size: 50px;
+	  text-decoration: none;
+	}
+	header .logo span{
+		color: #800b15;
+	}
+	header .navbar{
+		position: relative;
+		display: flex;
+	}
+	header .navbar li{
+		list-style: none;
+		margin-left: 30px
+	}
+	header .navbar li a{
+		text-decoration: none;
+		color: #000000;
+		font-weight: 300;
+	}
+	header .navbar li a:hover{
+		color: #800b15;
+	}
+	section{
+	  padding: 100px;
+	}
+	.row{
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.row .col50{
+		position: relative;
+		width: 48%;
+	}
+	.titletext{
+		color: #000000;
+		font-size: 30px;
+	  font-weight: 300;
+	}
+	.titletext span{
+		color: #800b15;
+		font-weight: 700;
+		font-size: 45px;
+	}
+	.row .col50 .imgBx{
+		position: relative;
+		width: 100%;
+		min-height: 300px;
+		height: 100%;
+	}
+	.row .col50 .imgBx img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.title
+	{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: column;	
+	}
+	.skills .content
+	{
+		display: flex;
+		justify-content: center;
+		flex direction: row-reverse;
+		flex: wrap;
+		margin-top: 40px;
+	}
+	.skills .content .box
+	{
+		width: 340px;
+		margin: 20px;
+		border: 15px solid #fff;
+		box-shadow: 0 5px 35px rgba(0,0,0,0,08);
+	}
+	.skills .content .box .imgBx
+	{
+		position: relative;
+		width: 100px;
+		height: 300px;
+	}
+	.skills .content .box .imgBx img
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.skills .content .box .text
+	{
+		padding: 15px 0 5px;
+	}
+	.skills .content .box .text h3
+	{
+		font-weight: 400;
+		color: #111;
+	}
+	.td . {
+		padding: 15px;
+	}
+	th, td {
+  	text-align: left;
+  	padding: 8px;
+	}	
+	tr:nth-child(even) {
+  	background-color: #D6EEEE;
+	}
+	.itfield .content
+	{
+		display: flex;
+		justify-content: center;
+		flex direction: row-reverse;
+		flex: wrap;
+		margin-top: 40px;
+	}
+	.itfield .content .box
+	{
+		width: 340px;
+		margin: 20px;
+		border: 15px solid #fff;
+		box-shadow: 0 5px 35px rgba(0,0,0,0,08);
+	}
+	.itfield .content .box .imgBx
+	{
+		position: relative;
+		width: 100px;
+		height: 300px;
+	}
+	.itfield .content .box .imgBx img
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.itfield .content .box .text
+	{
+		padding: 15px 0 5px;
+	}
+	.itfield .content .box .text h2
+	{
+		font-weight: 400;
+		color: #111;
+	}
+	.itfield .content p{
+		font-size:70px;	
+		color: #111;
+	}
+	.td . {
+		padding: 15px;
+	}
+	th, td {
+  	text-align: left;
+  	padding: 8px;
+	}	
+	tr:nth-child(even) {
+  	background-color: #D6EEEE;		
+	}
+	.career{
+		position: relative;
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: url();
+		background-size: cover;
+	}
+	.career .content{
+		max-width: 1000px;
+		text-align: center;
+	}
+	.career .content h1{
+		font-size: 70px;
+		color: #000000;
+	}
+	.career .content p{
+		font-size: 40px;
+		color: #000000;
+	}
+	.career .content p{
+		font-size: 50px;
+		color: #000000;
+	}
+	.myself .content
+	{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		flex-direction: row;
+		margin-top: 40px;
+	}
+	.myself .content .box
+	{
+		width: 350px;
+		margin: 90px;
+	}
+	.myself .content .box .imgBx
+	{
+		position: relative;
+		width: 390px;
+		height: 300px;
+	}
+	.myself .content .box .imgBx img
+	{
+	position: absolute;
+		top: 0;
+		left: 0;
+		width: 130%;
+		height: 130%;
+		object-fit: cover;	
+	}
+	.myself .content .box .text
+	{
+		padding: 25px 0 5px;
+	}
+	.myself .content .box .text h3
+	{
+		font-weight: 400;
+		color: 111;
+		
+	}
+
+	
